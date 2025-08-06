@@ -1,5 +1,11 @@
 /*
   app.js
+  
+    ## Entrega 01
+    - Curso: Programación Backend I. Desarrollo Avanzado de Backend 
+    - Comisión 76495 Del 02/07/25 al 04/09/25 Miércoles 20:30 a 22:30h
+    - Alumno:  Carlos Alfredo santa Cruz
+    - Profesor: Diego Polverelli - Adjunto o Tutor: Ivan Passalia
 */ 
 
 

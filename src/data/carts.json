@@ -1,6 +1,71 @@
 [
-
-      {"id":1,"category":"01","nombreCateg":"Ropa Bebe",   "code":"0101","stock":50,"price":22885,     "description":"Body Manga Larga Bebé Pack X 3                                 ","thumbnails":"../imgShop/0101 Body Manga Larga Bebe Pack X 3 _171x221px.png            ","title":"Body Manga Larga Bebé"}
-
-
+  {
+    "id": 1,
+    "products": [
+      {
+        "product": 1,
+        "quantity": 3
+      },
+      {
+        "product": 3,
+        "quantity": 2
+      },
+      {
+        "product": 2,
+        "quantity": 2
+      }
+    ],
+    "timestamp": "2025-08-06T15:07:38.348Z"
+  },
+  {
+    "id": 2,
+    "products": [
+      {
+        "product": 2,
+        "quantity": 3
+      },
+      {
+        "product": 4,
+        "quantity": 5
+      },
+      {
+        "product": 1,
+        "quantity": 1
+      }
+    ],
+    "timestamp": "2025-08-06T14:36:13.965Z"
+  },
+  {
+    "id": 3,
+    "products": [
+      {
+        "product": 6,
+        "quantity": 1
+      },
+      {
+        "product": 7,
+        "quantity": 3
+      }
+    ],
+    "timestamp": "2025-08-06T14:38:34.412Z"
+  },
+  {
+    "id": 4,
+    "products": [
+      {
+        "product": 2,
+        "quantity": 2
+      },
+      {
+        "product": 3,
+        "quantity": 5
+      }
+    ],
+    "timestamp": "2025-08-06T15:00:15.299Z"
+  },
+  {
+    "id": 5,
+    "products": [],
+    "timestamp": "2025-08-06T15:00:59.205Z"
+  }
 ]

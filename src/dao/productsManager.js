@@ -10,7 +10,7 @@ ProductManager - Gestion de productos
             "category":"RopaBebe",
             "nombreCateg":"Ropa Bebe",   
             "code":"0101",
-            "stock":50,
+            "stock":50, 
             "price":22885,
             "status":true,
             "description":"Body Manga Larga Bebé Pack X 3",
@@ -55,9 +55,10 @@ class ProductManager {
             const products = await this.getProducts();
             
             // Validar campos requeridos
-            const { title, description, price, thumbnail, code, stock } = productData;
-            if (!title || !description || price === undefined || !code || stock === undefined) {
-                throw new Error('Todos los campos son obligatorios: title, description, price, code, stock');
+            const { category, nombreCateg, title, description, price, thumbnail, code, stock } = productData;
+            console.log(`createProduct  productData=${productData}  title=${title}`)
+            if (!category || !title || !description || price === undefined || !code || stock === undefined) {
+                throw new Error('Todos los campos son obligatorios: category, title, description, price, code, stock');
             }
 
             // Verificar que el código no se repita
@@ -71,6 +72,8 @@ class ProductManager {
             
             const newProduct = {
                 id: newId,
+                category, 
+                nombreCateg: nombreCateg || category,
                 title,
                 description,
                 price: parseFloat(price),
@@ -86,67 +89,6 @@ class ProductManager {
             return newProduct;
         } catch (error) {
             console.error('Error al crear producto:', error);
-            throw error;
-        }
-    }
-
-    // Actualizar producto
-    static async updateProduct(id, updateData) {
-        try {
-            const products = await this.getProducts();
-            const productIndex = products.findIndex(p => p.id === parseInt(id));
-            
-            if (productIndex === -1) {
-                throw new Error('Producto no encontrado');
-            }
-
-            // No permitir actualizar el ID
-            delete updateData.id;
-
-            // Si se actualiza el código, verificar que no exista
-            if (updateData.code) {
-                const existingProduct = products.find(p => p.code === updateData.code && p.id !== parseInt(id));
-                if (existingProduct) {
-                    throw new Error('El código del producto ya existe');
-                }
-            }
-
-            // Actualizar producto
-            products[productIndex] = { ...products[productIndex], ...updateData };
-            
-            // Asegurar tipos correctos
-            if (updateData.price !== undefined) {
-                products[productIndex].price = parseFloat(updateData.price);
-            }
-            if (updateData.stock !== undefined) {
-                products[productIndex].stock = parseInt(updateData.stock);
-            }
-
-            await fs.writeFile(this.filePath, JSON.stringify(products, null, 2));
-            
-            return products[productIndex];
-        } catch (error) {
-            console.error('Error al actualizar producto:', error);
-            throw error;
-        }
-    }
-
-    // Eliminar producto
-    static async deleteProduct(id) {
-        try {
-            const products = await this.getProducts();
-            const productIndex = products.findIndex(p => p.id === parseInt(id));
-            
-            if (productIndex === -1) {
-                throw new Error('Producto no encontrado');
-            }
-
-            const deletedProduct = products.splice(productIndex, 1)[0];
-            await fs.writeFile(this.filePath, JSON.stringify(products, null, 2));
-            
-            return deletedProduct;
-        } catch (error) {
-            console.error('Error al eliminar producto:', error);
             throw error;
         }
     }

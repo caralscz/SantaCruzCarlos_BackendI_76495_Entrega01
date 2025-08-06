@@ -78,48 +78,4 @@ router.post('/', async (req, res) => {
     }
 });
 
-// PUT /api/products/:pid - Actualizar producto
-router.put('/:pid', async (req, res) => {
-    try {
-        const { pid } = req.params;
-        const updateData = req.body;
-        
-        const updatedProduct = await ProductManager.updateProduct(pid, updateData);
-        
-        res.json({
-            status: 'success',
-            data: updatedProduct,
-            message: 'Producto actualizado exitosamente'
-        });
-    } catch (error) {
-        const statusCode = error.message === 'Producto no encontrado' ? 404 : 400;
-        res.status(statusCode).json({
-            status: 'error',
-            message: 'Error al actualizar producto',
-            error: error.message
-        });
-    }
-});
-
-// DELETE /api/products/:pid - Eliminar producto
-router.delete('/:pid', async (req, res) => {
-    try {
-        const { pid } = req.params;
-        const deletedProduct = await ProductManager.deleteProduct(pid);
-        
-        res.json({
-            status: 'success',
-            data: deletedProduct,
-            message: 'Producto eliminado exitosamente'
-        });
-    } catch (error) {
-        const statusCode = error.message === 'Producto no encontrado' ? 404 : 500;
-        res.status(statusCode).json({
-            status: 'error',
-            message: 'Error al eliminar producto',
-            error: error.message
-        });
-    }
-});
-
 module.exports = router;
