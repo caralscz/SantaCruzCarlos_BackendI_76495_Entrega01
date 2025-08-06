@@ -12,7 +12,7 @@ const productsRoutes = require('./routes/products');  // ('./dao/productsManager
 const cartsRoutes = require('./routes/carts');        // ('./dao/cartsManager');     // ('./src/routes/carts'); 
 
 const app = express();
-const PORT = 8081;         // colocar puerto 8080 para entregar
+const PORT = 8080;         // <====  colocar puerto 8080 para entregar  en lugar del 8081
 
 // Middleware
 app.use(express.json()); // Para interpretar JSON en body
