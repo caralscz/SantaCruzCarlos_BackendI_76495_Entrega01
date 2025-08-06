@@ -1,0 +1,30 @@
+{
+  "name": "comision76495entrega01",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coderhouse",
+    "ecommerce",
+    "api",
+    "products",
+    "carts",
+    "nodejs",
+    "express"
+  ],
+  "author": "Santa Cruz Carlos A.",
+  "license": "ISC",
+  "description": "Entrega 01 - Backend 01",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

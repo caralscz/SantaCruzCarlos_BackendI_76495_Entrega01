@@ -1,0 +1,38 @@
+[
+    
+  {
+    "id":1,
+    "category":"RopaBebe",
+    "nombreCateg":"Ropa Bebe",   
+    "code":"0101",
+    "stock":50,
+    "price":22885,
+    "status":true,
+    "description":"Body Manga Larga Bebé Pack X 3",
+    "thumbnails":"../imgShop/0101 Body Manga Larga Bebe Pack X 3 _171x221px.png",
+    "title":"Body Manga Larga Bebé"
+  },
+
+  {"id":2, "category":"RopaBebe",   "nombreCateg":"Ropa Bebe",   "code":"0102","stock":40,"price":20000, "status":true, "description":"Enterito Para Recién Nacido De Polar Soft.                     ","thumbnails":"../imgShop/0102 Enterito Para Recien Nacido De Polar Soft _171x221px.png ","title":"Enterito Para Recién Nacido"},
+  {"id":3, "category":"RopaBebe",   "nombreCateg":"Ropa Bebe",   "code":"0103","stock":10,"price":18850, "status":true, "description":"Campera Bebe Polar Soft - Piel - Corderito                     ","thumbnails":"../imgShop/0103 Campera Bebe Polar Soft - Piel - Corderito _171x221px.png","title":"Campera Bebe Polar"},
+  {"id":4, "category":"RopaBebe",   "nombreCateg":"Ropa Bebe",   "code":"0104","stock":8, "price":23850, "status":true, "description":"Ajuar Conjunto Invierno Plush                                  ","thumbnails":"../imgShop/0104 Ajuar Conjunto Invierno Plush _171x221px.png             ","title":"Ajuar Conjunto Invierno"},
+  {"id":5, "category":"RopaBebe",   "nombreCateg":"Ropa Bebe",   "code":"0105","stock":6, "price":177000,"status":true, "description":"Ajuar Bebé Set 7 - 13 Piezas Batita, Ranita, Toallón, Manta Etc","thumbnails":"../imgShop/0105 Ajuar Bebe Set 7 -recien Nacido _171x221px.png           ","title":"Ajuar Bebé Set n Piezas"},
+  {"id":6, "category":"RopaMujer",  "nombreCateg":"Ropa Mujer",  "code":"0201","stock":50,"price":13999, "status":true, "description":"Buzo Mujer Peluche Elastizado Bifaz Varios Colores Canguro     ","thumbnails":"../imgShop/0201 Buzo Mujer Peluche Elastizado _171x221px.png             ","title":"Buzo Mujer Peluche"},
+  {"id":7, "category":"RopaMujer",  "nombreCateg":"Ropa Mujer",  "code":"0202","stock":40,"price":32000, "status":true, "description":"Jean Mujer Dama Oxford Elastizado Calce Perfecto               ","thumbnails":"../imgShop/0202 Jean Mujer Dama Oxford _171x221px.png                    ","title":"Jean Mujer Dama"},
+  {"id":8, "category":"RopaMujer",  "nombreCateg":"Ropa Mujer",  "code":"0203","stock":30,"price":99990, "status":true, "description":"Campera De Abrigo Parka Mujer Impermeable                      ","thumbnails":"../imgShop/0203 Campera De Abrigo Parka _171x221px.png                   ","title":"Campera De Abrigo"},
+  {"id":9, "category":"RopaMujer",  "nombreCateg":"Ropa Mujer",  "code":"0204","stock":20,"price":55000, "status":true, "description":"Conjunto Deportivo Jogging Pantalón Buzo Canguro Capucha       ","thumbnails":"../imgShop/0204 Conjunto Deportivo _171x221px.png                        ","title":"Conjunto Deportivo"},
+  {"id":10,"category":"RopaMujer",  "nombreCateg":"Ropa Mujer",  "code":"0205","stock":10,"price":49000, "status":true, "description":"Pollera Falda Jean De Mujer Larga Rigida Tajo Cenitho Jeans    ","thumbnails":"../imgShop/0205 Pollera Falda Jean _171x221px.png                        ","title":"Pollera Falda Jean"},
+  {"id":11,"category":"RopaHombre", "nombreCateg":"Ropa Hombre", "code":"0301","stock":50,"price":31500, "status":true, "description":"Campera Inflable Super Abrigada Con Capucha Desmontable        ","thumbnails":"../imgShop/0301 Campera Inflable _171x221px.png                          ","title":"Campera Inflable"},
+  {"id":12,"category":"RopaHombre", "nombreCateg":"Ropa Hombre", "code":"0302","stock":40,"price":24575, "status":true, "description":"Campera Friza Con Piel Corderito Por Dentro Varios Colores     ","thumbnails":"../imgShop/0302 Campera Friza Con Piel Corderito _171x221px.png          ","title":"Campera Friza"},
+  {"id":13,"category":"RopaHombre", "nombreCateg":"Ropa Hombre", "code":"0303","stock":30,"price":31999, "status":true, "description":"Pack X 5 Remeras Algodon Premium Lisas Varios Colores          ","thumbnails":"../imgShop/0303 Pack X 5 Remeras Algodon _171x221px.png                  ","title":"Remeras Algodon"},
+  {"id":14,"category":"RopaHombre", "nombreCateg":"Ropa Hombre", "code":"0304","stock":20,"price":35100, "status":true, "description":"Pack 3 Camiseta Musculosa Tres Ases Algodon Morley             ","thumbnails":"../imgShop/0304 Pack 3 Camiseta Musculosa _171x221px.png                 ","title":"Camiseta Musculosa"},
+  {"id":15,"category":"RopaHombre", "nombreCateg":"Ropa Hombre", "code":"0305","stock":10,"price":55000, "status":true, "description":"Pantalón De Gabardina Pinzado Clásico Hombre Pierre Cardin     ","thumbnails":"../imgShop/0305 Pantalon De Gabardina Pinzado _171x221px.png             ","title":"Pantalón De Gabardina"},
+  {"id":16,"category":"Herramienta","nombreCateg":"Herramientas","code":"0401","stock":50,"price":17600, "status":true, "description":"Prensa Sargento 50 X 200 Carpinteria X4 Unidades               ","thumbnails":"../imgShop/0401 Prensa Sargento _171x221px.png                           ","title":"Prensa Sargento"},
+  {"id":17,"category":"Herramienta","nombreCateg":"Herramientas","code":"0402","stock":40,"price":129300,"status":true, "description":"Fresadora Router Tupi Rebajador 1400w Lusqtoff 3 Boquillas 220V","thumbnails":"../imgShop/0402 Fresadora Router Tupi _171x221px.png                     ","title":"Fresadora"},
+  {"id":18,"category":"Herramienta","nombreCateg":"Herramientas","code":"0403","stock":30,"price":110500,"status":true, "description":"Gamma G1930ar sierra circular 1300w 220V                       ","thumbnails":"../imgShop/0403 Gamma G1930ar sierra circular _171x221px.png             ","title":"Sierra circular"},
+  {"id":19,"category":"Herramienta","nombreCateg":"Herramientas","code":"0404","stock":20,"price":7200,  "status":true, "description":"Formón 1 Mango Comfort Grip, Truper                            ","thumbnails":"../imgShop/0404 Formon 1 Mango Comfort _171x221px.png                    ","title":"Formón"},
+  {"id":20,"category":"Herramienta","nombreCateg":"Herramientas","code":"0405","stock":18,"price":63400, "status":true, "description":"Sierra Caladora Skil 4400jb 400w Velocidad Variable + Hoja     ","thumbnails":"../imgShop/0405 Sierra Caladora Skil _171x221px.png                      ","title":"Sierra Caladora"},
+  {"id":21,"category":"Herramienta","nombreCateg":"Herramientas","code":"0406","stock":14,"price":10300, "status":true, "description":"Serrucho Carpintero Tipo Aleman Acero 40 Cm. 16 Pulgadas       ","thumbnails":"../imgShop/0406 Serrucho Carpintero _171x221px.png                       ","title":"Serrucho"},
+  {"id":22,"category":"Herramienta","nombreCateg":"Herramientas","code":"0407","stock":10,"price":7800,  "status":true, "description":"Escuadra Con Nivel 30cm Combinada Corrediza Carpinteria Acer   ","thumbnails":"../imgShop/0407 Escuadra Con Nivel _171x221px.png                        ","title":"Escuadra Con Nivel"}
+
+]

@@ -1,0 +1,17 @@
+# ============================================================== 
+# Estudiando Backend | CoderHouse entrega 01 | 31/07/2025
+# Desarrollado por Carlos A. santa Cruz
+# Programación Backend I: Desarrollo Avanzado de Backend
+# Comisión 76495 - Del 02/07/25 al 04/09/25
+# Miércoles 20:30 a 22:30h
+# Profe: Diego Polverelli
+# Adjunto o Tutor: Ivan Passalia 
+# ============================================================== 
+# archivos y carpetas a ignorar por git (que no queremos subir al repositorio)
+# si el nombre finaliza con /, ignora la carpeta y todo su contenido
+# este es el contenedor de paginas que uso de apuntes
+.apuntes/
+
+# de aquí en adelante son los que se ignora por defecto lo que instalamos
+node_modules/
+node_modules
