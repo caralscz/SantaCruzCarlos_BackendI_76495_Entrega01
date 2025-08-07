@@ -47,9 +47,9 @@ proyecto/
 ¦   ¦   +-- products.js         # Rutas de productos
 ¦   ¦   +-- carts.js            # Rutas de carritos
 ¦   +-- data/
-¦       +-- products.json      # Almacén de productos
-¦       +-- carts.json         # Almacén de carritos
-+-- app.js                      # Servidor principal
+¦   ¦   +-- products.json      # Almacén de productos
+¦   ¦   +-- carts.json         # Almacén de carritos
+¦   +-- app.js                 # Servidor principal
 +-- package.json                # Configuración del proyecto
 
 ```

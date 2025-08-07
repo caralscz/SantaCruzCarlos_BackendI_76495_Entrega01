@@ -14,8 +14,8 @@ const path = require('path');
 const fs = require('fs').promises;
 
 // Importar routers
-const productsRoutes = require('./src/routes/products');  // ('./dao/productsManager');  // ('./src/routes/products'); 
-const cartsRoutes = require('./src/routes/carts');        // ('./dao/cartsManager');     // ('./src/routes/carts'); 
+const productsRoutes = require('./routes/products');  // ('./dao/productsManager');  // ('./src/routes/products'); 
+const cartsRoutes = require('./routes/carts');        // ('./dao/cartsManager');     // ('./src/routes/carts'); 
 
 const app = express();
 const PORT = 8080;         // <====  colocar puerto 8080 para entregar  en lugar del 8081
